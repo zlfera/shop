@@ -1,0 +1,9 @@
+{application,shop,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,jason,
+                             postgrex,ecto_sql]},
+              {description,"shop"},
+              {modules,['Elixir.Shop','Elixir.Shop.Application',
+                        'Elixir.Shop.DataCase','Elixir.Shop.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Shop.Application',[]}}]}.
